@@ -1,0 +1,41 @@
+{
+
+  "baseURL":"http://13.58.58.174:3000/api/v1/",
+  
+  "endPoints":{
+      "login": "user/login",
+      "patientList": "child",
+      "scanUpload": "images/upload",
+      "updateMedicalRecord":"child/",
+      "updatePatientProfile":"child/",
+      "addPatient": "child",
+      "UploadPatientMedicalRecord": "diagnosis/addDiagnosisHistory",
+      "patientMedicalInfo": "diagnosis/test/"
+  },
+    "methods":{
+      "GET":"GET",
+      "POST":"POST",
+      "PUT":"PUT"
+    },
+
+  "reponseCode":{
+      "success":"1",
+      "failure": "0"
+    },
+
+    "reponseStatus":{
+        "success":"success",
+        "error":"error"
+      },
+
+  "message":{
+      "NetworkError": "May be your internet is not connected or there is something went wrong on server.",
+      "WentWrong": "Something went wrong, please try again later.",
+      "PasswordValidateError": "Your password length must be between 8 to 20 characters. Contain atleast one upper case letter and atleast one digit."
+    }
+}
+
+
+
+
+
